@@ -14,10 +14,17 @@ steps:
       event:
         - push
 
-  - name: test-and-build
+  - name: test
     image: node:current-alpine
     commands:
       - CI=true yarn test
+    when:
+      event:
+        - push
+
+  - name: build
+    image: node:current-alpine
+    commands:
       - CI=true yarn build
     when:
       event:
