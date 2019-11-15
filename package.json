@@ -1,0 +1,52 @@
+{
+  "name": "lds-gsim-browser",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statisticsnorway/lds-gsim-browser"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "axios-hooks": "^1.6.0",
+    "chart.js": "^2.9.2",
+    "date-fns": "^2.6.0",
+    "graphql-request": "^1.8.2",
+    "humanize-graphql-response": "^1.0.0",
+    "lodash": "^4.17.15",
+    "react": "^16.11.0",
+    "react-chartjs-2": "^2.8.0",
+    "react-datepicker": "^2.9.6",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "react-table": "^6.10.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.3",
+    "@testing-library/react": "^9.3.2"
+  }
+}
