@@ -9,7 +9,7 @@ export const APP = {
   },
   HEADER: {
     en: 'LDS GSIM Browser',
-    nb: 'Fagdag demo'
+    nb: 'LDS GSIM Browser'
   },
   LANGUAGE: {
     en: 'Language',
